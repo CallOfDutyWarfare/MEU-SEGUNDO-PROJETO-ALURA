@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Creepster&family=Playwrite+IS:wght@100..400&family=Sacramento&family=Saira+Stencil+One&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <title>O segredo escondido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Você e um grupo de amigos decidiram explorar uma ilha remota para uma aventura de final de semana. Tudo estava indo bem até uma tempestade surgir do nada, e o barco de vocês foi destruído. Agora, perdidos na ilha, vocês precisam encontrar uma forma de sobreviver e, quem sabe, escapar.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a floresta próximas</button>
+            <button class="btn-proximo" data-proximo="2">Perguntar aos vizinhos sobre o mapa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.avif" alt="">
+            <p>Você entra na floresta e segue uma trilha que parece levar a um lugar escondido. De repente, você escuta um barulho estranho entre as árvores.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o barulho</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e continuar na trilha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpg" alt="">
+            <p>Seu vizinho idoso conta que o mapa pertenceu a um explorador e que o 'X' marca o local de um antigo baú de tesouros escondido há muitos anos.</p>
+            <button class="btn-proximo" data-proximo="5">Ir imediatamente para o local indicado no mapa</button>
+            <button class="btn-proximo" data-proximo="6">Procurar mais informações na biblioteca</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.avif" alt="">
+            <p>Você encontra um coelho saltando, mas ao observar o chão, percebe pegadas diferentes, que não são do coelho. Elas parecem levar a uma caverna escura.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.webp" alt="">
+            <p>A trilha leva você até um lago cristalino. No centro, você avista uma pequena ilha com algo brilhante.</p>
+            <button class="btn-proximo" data-proximo="9">Nadar até a ilha</button>
+            <button class="btn-proximo" data-proximo="10">Procurar outra pista ao redor do lago</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.jpg" alt="">
+            <p>Você chega a um ponto marcado pelo mapa e percebe que há uma pedra com inscrições antigas. De acordo com as instruções, deve mover a pedra.</p>
+            <button class="btn-proximo" data-proximo="11">Mover a pedra</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar a pedra e explorar o local</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.jpg" alt="">
+            <p>Você descobre um diário que menciona armadilhas perto do local do tesouro e recomenda cautela.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para o mapa com cuidado</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e deixar o mapa para trás</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.jpg" alt="">
+            <p>Na caverna, você encontra uma caixa antiga coberta de musgo e fechada com um cadeado.</p>
+            <button class="btn-proximo" data-proximo="13">Abrir a caixa com uma chave que encontrou no sótão</button>
+            <button class="btn-proximo" data-proximo="8">Deixar a caixa e sair da caverna</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.jpg" alt="">
+            <p>Você decide voltar para casa, mas a curiosidade sobre o mistério permanece. Quem sabe um dia você retorne?</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.jpg" alt="">
+            <p>Na ilha, você encontra uma inscrição que indica o próximo destino: uma antiga cabana escondida na floresta.</p>
+            <button class="btn-proximo" data-proximo="14">Ir para a cabana</button>
+            <button class="btn-proximo" data-proximo="0">Retornar para o mapa inicial e buscar outros caminhos</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo10.jpg" alt="">
+            <p>Você encontra uma moeda dourada enterrada perto de uma árvore. Parece que faz parte de um tesouro maior.</p>
+            <button class="btn-proximo" data-proximo="14">Ir para a cabana próxima</button>
+            <button class="btn-proximo" data-proximo="4">Investigar outra área ao redor do lago</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpg" alt="">
+            <p>Ao mover a pedra, uma passagem secreta se abre, revelando uma sala com paredes cheias de inscrições antigas e um baú.</p>
+            <button class="btn-proximo" data-proximo="15">Abrir a caixa com uma chave que encontrou no sótão</button>
+            <button class="btn-proximo" data-proximo="8">Deixar a caixa e sair da caverna</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo12.webp" alt="">
+            <p>Você encontra um símbolo gravado numa árvore, semelhante ao símbolo do mapa. Ele aponta para a entrada de uma cabana.</p>
+            <button class="btn-proximo" data-proximo="14">Seguir até a cabana</button>
+            <button class="btn-proximo" data-proximo="5">Procurar outra pista na área ao redor</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo13.webp" alt="">
+            <p>Dentro da caixa, você encontra cartas com uma das mensagens: 'O verdadeiro tesouro é a jornada'. Continue o mapa até o fim.A aventura é um legado da sua família.</p>
+            <button class="btn-proximo" data-proximo="15">Recompensas</button>
+            
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo14.jpg" alt="">
+            <p>A cabana contém vários objetos antigos e um mapa que aponta para o último local onde o tesouro pode estar enterrado.</p>
+            <button class="btn-proximo" data-proximo="15">Seguir o novo mapa</button>
+            <button class="btn-proximo" data-proximo="13">Explorar outros itens antigos na cabana</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="cenario-passo15.webp" alt="">
+            <p>Depois de seguir o mapa até o final, você encontra um baú repleto de moedas antigas e pedras preciosas. Parabéns, você encontrou o tesouro perdido!</p>
+            <button class="btn-proximo" data-proximo="16">clique aqui</button>
+           
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="cenario-passo7.jpg" alt="">
+            <p>Parabéns! Você completou a aventura e encontrou o tesouro perdido. Foi uma jornada cheia de escolhas, mistérios e coragem. Cada decisão levou você por caminhos diferentes, revelando segredos escondidos e enfrentando desafios inesperados. É assim que uma boa aventura deve ser!
+
+                Agradecemos por ter explorado essa história e por ter usado a imaginação para desvendar os enigmas do mapa. Esperamos que tenha se divertido e que essa experiência tenha trazido um pouco da magia das grandes explorações para o seu dia.
+                
+                Lembre-se: assim como em nossa aventura, na vida sempre temos escolhas e muitos caminhos para descobrir. Nunca deixe de explorar o desconhecido e buscar o seu próprio tesouro.</button>
+            <button class="btn-proximo" data-proximo="0">Recomeçar!</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
